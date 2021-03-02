@@ -30,6 +30,11 @@ public class CalculatorModelTest {
 	public void shouldSubstTwoAndTwo(){
 		assertEquals(0.0, calc.operationSubst(2.0, 2.0), 0.1);
 	} 
+	
+	@Test
+	public void shouldSubstTwoAndFive(){
+		assertEquals(3.0, calc.operationSubst(2.0, 5.0), 0.1);
+	} 
 
 	@Test
 	public void shouldMultTwoByOne(){
