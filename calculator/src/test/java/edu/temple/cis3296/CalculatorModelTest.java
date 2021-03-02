@@ -21,7 +21,7 @@ public class CalculatorModelTest {
 
 	@Test
 	public void shouldSubstTwoAndTwo(){
-		assertEquals(0.0, calc.operationSubst(2.0, 2.0), 0.1);
+		assertEquals(3.0, calc.operationSubst(2.0, 5.0), 0.1);
 	} 
 
 	@Test
